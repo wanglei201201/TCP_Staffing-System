@@ -1,0 +1,42 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CLI_H	cli.h	2;"	d
+ERR_MSG	cli.h	21;"	d
+ID	cli.h	/^	char ID[15];$/;"	m	struct:son_data
+IP	cli.h	19;"	d
+PORT	cli.h	18;"	d
+a	cli.h	/^static data a;$/;"	v
+account	cli.h	/^	char account[20];$/;"	m	struct:pass_data
+addr	cli.h	/^	char addr[20];$/;"	m	struct:son_data
+age	cli.h	/^	char age[7];$/;"	m	struct:son_data
+brr	cli.h	/^	char brr[30];$/;"	m	struct:son_data
+cin	cli.h	/^	struct sockaddr_in cin;$/;"	m	struct:cliInfo	typeref:struct:cliInfo::sockaddr_in
+cliInfo	cli.h	/^struct cliInfo$/;"	s
+coded	cli.h	/^	char coded[20];$/;"	m	struct:pass_data
+data	cli.h	/^}data;$/;"	t	typeref:struct:data3
+data1	cli.h	/^	struct son_data data1;$/;"	m	struct:data3	typeref:struct:data3::son_data
+data2	cli.h	/^	struct pass_data data2;$/;"	m	struct:data3	typeref:struct:data3::pass_data
+data3	cli.h	/^typedef struct data3{$/;"	s
+db	cli.h	/^static sqlite3 *db=NULL;$/;"	v
+do_exit	cli.c	/^int do_exit(int newfd,data log)$/;"	f
+do_login	cli.c	/^int do_login(int newfd,data log)$/;"	f
+do_register	cli.c	/^int do_register(int newfd,data log)$/;"	f
+errmsg	cli.h	/^static char *errmsg=NULL;$/;"	v
+main	1_1员工管理系统.c	/^int main(int argc, const char *argv[])$/;"	f
+newfd	cli.h	/^	int newfd;$/;"	m	struct:cliInfo
+pass_data	cli.h	/^struct pass_data{$/;"	s
+phone	cli.h	/^	char phone[18];$/;"	m	struct:son_data
+ser_init	cli.c	/^int ser_init()$/;"	f
+sex	cli.h	/^	char sex;$/;"	m	struct:son_data
+son_data	cli.h	/^struct son_data{$/;"	s
+sqlite_init	cli.c	/^int sqlite_init()$/;"	f
+syst	cli.c	/^void * syst(void *arg)$/;"	f
+type	cli.h	/^	char type;$/;"	m	struct:data3
+work	cli.c	/^int work(int newfd,data log)$/;"	f
+work_add	cli.c	/^int work_add(int newfd,data log)$/;"	f
+work_change	cli.c	/^int work_change(int newfd,data log)$/;"	f
+year	cli.h	/^	char year[5];$/;"	m	struct:son_data
